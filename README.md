@@ -62,7 +62,7 @@ No IP addresses, cookies or visitor ids are stored. Bots and link previewers (Go
 
 ## Verified
 
-- **Unit tests** (`.unit/run.mjs`, 10 checks):
+- **Unit tests** (`tests/unit.mjs`, run with `npm test`, 10 checks):
   - handles; link safety (scripts, data, file and localhost refused); scheduling;
   - fixed and pay-what-you-want prices;
   - byte sniffing (PDF, PNG, EPUB vs ZIP, MP3; HTML and EXE refused) and safe download names;
